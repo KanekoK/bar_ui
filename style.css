@@ -25,6 +25,9 @@ h1 {
   font-size: 18vh;
   font-weight: 400;
 }
+h1 img {
+  width: 70%;
+}
 
 p {
   margin: 0;
