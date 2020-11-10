@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Homenaje');
 
+body {
+  margin: 0;
+}
+
 .p-canvas-webgl {
   position: fixed;
   z-index: 1;
   top: 0; left: 0;
+  opacity: 0.6;
 }
 
 .p-summary {
@@ -20,13 +25,21 @@
   text-align: center;
 }
 
+.background {
+  background-color: black;
+  background-image: url('./img/bk.png');
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+}
+
 h1 {
   margin: 0 0 0.1em;
   font-size: 18vh;
   font-weight: 400;
 }
 h1 img {
-  width: 70%;
+  width: 50%;
 }
 
 p {

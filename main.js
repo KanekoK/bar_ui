@@ -1,3 +1,4 @@
+
 const debounce = (callback, duration) => {
   var timer;
   return function(event) {
@@ -171,6 +172,8 @@ class Fog {
 
 const resolution = new THREE.Vector2();
 const canvas = document.getElementById('canvas-webgl');
+
+
 const renderer = new THREE.WebGLRenderer({
   alpha: true,
   antialias: true,
